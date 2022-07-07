@@ -19,7 +19,7 @@ function sumOfNumbers(arrayOfNumbers) {
  assignment.sumOfNumbers = sumOfNumbers;
 let numbers = [3,6,9,11,15,17,22,80,50,100,99,45,10]
 
-function sumOfNumbers(arrayOfNumbers) {
+function totalOfNumbers(arrayOfNumbers) {
     let total = 0;
 
     for(let number of arrayOfNumbers) {
@@ -28,7 +28,7 @@ function sumOfNumbers(arrayOfNumbers) {
     return total;
 } 
 
-console.log(sumOfNumbers(numbers))
+console.log(totalOfNumbers(numbers))
 
 /**
  * Challenge - 2
@@ -42,7 +42,7 @@ console.log(sumOfNumbers(numbers))
 function countEvenNumbers(arrayOfNumbers) {
     return arrayOfNumbers.length;
 }
-assignment.countEvenNumbers = countEvenNumbers;
+assignment.EvenNumbers = countEvenNumbers;
 
 const amount = [12, 23, 9, 11, 67, 2, 44, 82, 18, 56];
 
